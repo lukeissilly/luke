@@ -8,7 +8,6 @@ body {
     background-attachment: fixed;
 }
 
-
 .container {
     background-color: rgba(12, 12, 12, 0.7);
     padding: 20px;
@@ -18,7 +17,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
-    width: 500px;
+    width: 400px;
 }
 
 .profile-picture {
@@ -98,4 +97,14 @@ body {
     background-color: #fff;
     transform-origin: left center;
     pointer-events: none;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    .link-button {
+        padding: 8px 10px;
+    }
 }
