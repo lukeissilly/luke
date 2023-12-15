@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
             line.className = "cursor-line";
             line.style.left = `${cursorPositions[i].x}px`;
             line.style.top = `${cursorPositions[i].y}px`;
-            line.style.width = `${Math.abs(cursorPositions[i + 1].x - cursorPositions[i].x)}px`;
+            line.style.width = `${Math.sqrt(Math.pow(cursorPositions[i + 1].x - cursorPositions[i].x, 2) + Math.pow(cursorPositions[i + 1].y - cursorPositions[i].y, 2))}px`;
             line.style.transform = `rotate(${Math.atan2(cursorPositions[i + 1].y - cursorPositions[i].y, cursorPositions[i + 1].x - cursorPositions[i].x)}rad)`;
             cursorTrail.appendChild(line);
         }
