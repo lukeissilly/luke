@@ -1,11 +1,10 @@
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", () => {
     const cursorTrail = document.getElementById("cursor-trail");
     const trailLength = 5;
     const trailDuration = 0;
-
     const cursorPositions = [];
 
-    document.addEventListener("mousemove", function(e) {
+    document.addEventListener("mousemove", (e) => {
         const cursorX = e.clientX;
         const cursorY = e.clientY;
 
