@@ -1,6 +1,5 @@
 const handleImage = document.querySelector('.handle');
 const doorImage = document.querySelector('.door');
-const insideImage = document.querySelector('.inside');
 
 let isOpen = false;
 let isHandleTurning = false;
