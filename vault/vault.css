@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+}
+
+.stack {
+    position: relative;
+    cursor: pointer;
+    width: 400px;
+    height: 400px;
+}
+
+.image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s ease-in-out;
+    border-radius: 120px;
+}
