@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('images/star.gif') fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    background-color: rgba(12, 12, 12, 0.7);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    width: 400px;
+    box-shadow: 0 0 1px 5px rgb(255, 255, 255);
+    margin: 100px auto;
+}
+
+
+.profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    box-shadow: 0 0 1px 5px rgb(255, 255, 255);
+}
+
+.profile-picture:hover {
+    transform: scale(1.1);
+    
+}
+
+.name {
+    color: #ffffff;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.bio {
+    color: #ffffff;
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
+.pronouns {
+    color: #afafaf;
+    margin-top: -25px;
+    font-size: 20px;
+}
+
+.factT {
+    color: #ffffff;
+    margin-top: 60px;
+    font-size: 40px;
+}
+
+.fact {
+    color: #f7f7f7;
+    margin-top: -15px;
+    font-size: 20px;
+    margin-top: -30px;
+}
+
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.link-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.link-button:hover {
+    transform: scale(1.1);
+}
+
+.b1 {
+    background-color: #FF0000;
+}
+
+.b2 {
+    background-color: #1DA1F2;
+}
+
+.b3 {
+    background-color: #5865F2;
+}
+
+.b4 {
+    background-color: #A970FF;
+}
+
+.b5 {
+    background-color: #0062FE;
+}
+
+.b6 {
+    background-color: #343D44;
+}
+
+.link-button:hover {
+    background-color: #333;
+}
+
+#cursor-trail {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.cursor-line {
+    position: absolute;
+    height: 5px;
+    background-color: #fff;
+    transform-origin: left center;
+    pointer-events: none;
+}
+
+.text {
+    color: #ffffff;
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        margin-top: 15px;
+    
+    }
+
+    .profile-picture {
+        margin-top: -57px;
+    
+    }
+
+    .link-button {
+        padding: 8px 10px;
+    }
+}
