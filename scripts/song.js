@@ -1,7 +1,7 @@
 require('dotenv').config();
 
 document.addEventListener('DOMContentLoaded', function () {
-    const spotifyAccessToken = SPOTIFY_ACCESS_TOKEN;
+    const spotifyAccessToken = process.env.SPOTIFY_ACCESS_TOKEN;
     const songElement = document.getElementById('current-song');
 
     function updateCurrentSong() {
