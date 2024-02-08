@@ -175,8 +175,21 @@ body {
 
 @media (max-width: 720px) {
     .body {
-    margin-top: -20px;
+    margin-top: -150px;
     margin-left: -12px;
     scale: 65%;
+    }
+
+    .song{
+    margin-top:-50px;
+    margin-bottom:-50px;
+    scale: 0%;
+
+    }
+    
+    .visualizer {
+    margin-top:0px;
+    margin-bottom:0px;
+    scale: 0%;
     }
 }
