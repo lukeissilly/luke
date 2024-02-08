@@ -2,10 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: url('images/star.gif') center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: url('images/star.gif') center / cover no-repeat fixed;
 }
 
 .container {
@@ -15,10 +12,9 @@ body {
     text-align: center;
     box-sizing: border-box;
     width: 400px;
-    box-shadow: 0 0 1px 5px rgb(255, 255, 255);
+    box-shadow: 0 0 1px 5px #fff;
     margin: 10px auto;
 }
-
 
 .profile-picture {
     border-radius: 50%;
@@ -27,48 +23,45 @@ body {
     position: relative;
     top: 50px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     object-fit: cover;
-    box-shadow: 0 0 1px 5px rgb(255, 255, 255);
+    box-shadow: 0 0 1px 5px #fff;
 }
 
 .profile-picture:hover {
     transform: scale(1.1);
-    
+}
+
+.name, .bio, .factT {
+    color: #ffffff;
 }
 
 .name {
-    color: #ffffff;
     margin-top: 40px;
     font-size: 40px;
 }
 
 .bio {
-    color: #ffffff;
     margin-bottom: 40px;
     font-size: 25px;
 }
 
-.pronouns {
+.pronouns, .text2 {
     color: #afafaf;
     margin-top: -25px;
     font-size: 20px;
 }
 
 .factT {
-    color: #ffffff;
     margin-top: 60px;
     font-size: 40px;
 }
 
 .fact {
     color: #f7f7f7;
-    margin-top: -15px;
-    font-size: 20px;
     margin-top: -30px;
+    font-size: 20px;
 }
-
 
 .links {
     display: flex;
@@ -84,54 +77,30 @@ body {
     color: #fff;
     font-weight: bold;
     border-radius: 10px;
-    transition: background-color 0.3s;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 .link-button:hover {
     transform: scale(1.1);
-}
-
-.b1 {
-    background-color: #FF0000;
-}
-
-.b2 {
-    background-color: #1DA1F2;
-}
-
-.b3 {
-    background-color: #5865F2;
-}
-
-.b4 {
-    background-color: #1ed760;
-}
-
-.b5 {
-    background-color: #0062FE;
-}
-
-.b6 {
-    background-color: #343D44;
-}
-
-.link-button:hover {
     background-color: #333;
 }
 
-#cursor-trail {
-    position: fixed;
-    top: 0;
-    left: 0;
+.b1 { background-color: #FF0000; }
+.b2 { background-color: #1DA1F2; }
+.b3 { background-color: #5865F2; }
+.b4 { background-color: #1ed760; }
+.b5 { background-color: #0062FE; }
+.b6 { background-color: #343D44; }
+
+#cursor-trail, .cursor-line {
+    position: absolute;
     pointer-events: none;
 }
 
 .cursor-line {
-    position: absolute;
     height: 5px;
     background-color: #fff;
     transform-origin: left center;
-    pointer-events: none;
 }
 
 .text {
@@ -140,21 +109,13 @@ body {
     font-size: 20px;
 }
 
-.text2 {
-    color: #afafaf;
-    margin-top: -25px;
-    font-size: 15px;
-}
-
 .songT {
     color: #ffffff;
     margin-top: -40px;
-
     font-size: 20px;
 }
 
 .song{
-    margin-top:0px;
     margin-bottom:100px;
 }
 
@@ -162,34 +123,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -109px;
-    margin-bottom: -10px;
+    margin: -109px auto -10px;
     border-radius: 20px;
     overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
     width: 400px;
     height: 100px;
 }
 
-
 @media (max-width: 720px) {
     .body {
-    margin-top: -150px;
-    margin-left: -12px;
-    scale: 65%;
+        margin: -150px -12px 0;
+        transform: scale(0.65);
     }
 
-    .song{
-    margin-top:-50px;
-    margin-bottom:-50px;
-    scale: 0%;
-
-    }
-    
-    .visualizer {
-    margin-top:0px;
-    margin-bottom:0px;
-    scale: 0%;
+    .song, .visualizer {
+        margin: -50px 0;
+        transform: scale(0);
     }
 }
