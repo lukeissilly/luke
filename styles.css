@@ -140,16 +140,52 @@ body {
     font-size: 20px;
 }
 
-.song {
+.text2 {
+    color: #afafaf;
+    margin-top: -25px;
+    font-size: 15px;
+}
+
+.songT {
     color: #ffffff;
-    margin-top: 60px;
+    margin-top: -40px;
+
     font-size: 20px;
 }
 
+.song{
+    margin-top:0px;
+    margin-bottom:100px;
+}
+
+.visualizer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+    margin-bottom: -10px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+
 @media (max-width: 720px) {
     .body {
-    margin-top: -180px;
+    margin-top: -20px;
     margin-left: -12px;
     scale: 65%;
+    }
+
+    .visualizer-container {
+        scale: 0%;
+
+    }
+
+    .song{
+        scale: 0%;
+        margin-top: 0px;
+        margin-bottom: 0px;
     }
 }
