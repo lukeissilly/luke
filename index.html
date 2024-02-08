@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <!-- Basic Info -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,60 +11,72 @@
     <title>Luke</title>
     <link rel="icon" type="image/x-icon" href="images/pfp.gif">
     <link rel="stylesheet" href="styles.css">
+    
 
-    <!-- Twitter Meta Shit -->
+    <!-- Meta Shit -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Luke">
     <meta name="twitter:description" content="Luke was here">
     <meta name="twitter:image" content="https://luke.tf/images/pfp.gif">
+
 </head>
 
 <body class="body">
 
-        <!-- Profile Picture -->
-        <a href="vault/vault.html">
-            <img class="profile-picture" src="images/pfp.gif">
-        </a>
-        
-        <div class="container">
-            
-        <!-- The little box on the screen that holds my social shit -->
-        <div class="profile-container">
+    <!-- Trail :p -->
+    <div id="cursor-trail"></div>
+
+    <!-- Profile Picture -->
+    <a href="vault/vault.html">
+    <img class="profile-picture" src="images/pfp.gif">
+    </a>
+     
+    <!-- Little box :3 -->
+    <div class="container">
+           
+        <!-- Basic Info -->
+        <div class="profile">
             <h1 class="name">Luke</h1>
             <p class="pronouns">he/him</p>
             <p class="bio">I'm Luke and I do dumb shit</p>
-            <div class="links">
-                <a href="https://youtube.com/@lukeissilly" target="_blank" class="link-button b1">YouTube</a>
-                <a href="https://twitter.com/lukeissilly" target="_blank" class="link-button b2">Twitter</a>
-                <a href="https://discord.name/385344110778908674" target="_blank" class="link-button b3">Discord</a>
-                <a href="https://open.spotify.com/user/9ixw4ovbqy6tdn1rn9wiyz6vx" target="_blank" class="link-button b4">Spotify</a>
-                <a href="https://bsky.app/profile/luke.tf" target="_blank" class="link-button b5">BlueSky</a>
-                <a href="https://github.com/lukeisuh" target="_blank" class="link-button b6">GitHub</a>
-            </div>
+        </div>
 
-            <!-- Fun Fact Section -->
+        <!-- Links -->
+        <div class="links">
+            <a href="https://youtube.com/@lukeissilly" target="_blank" class="link-button b1">YouTube</a>
+            <a href="https://twitter.com/lukeissilly" target="_blank" class="link-button b2">Twitter</a>
+            <a href="https://discord.name/385344110778908674" target="_blank" class="link-button b3">Discord</a>
+            <a href="https://open.spotify.com/user/9ixw4ovbqy6tdn1rn9wiyz6vx" target="_blank" class="link-button b4">Spotify</a>
+            <a href="https://bsky.app/profile/luke.tf" target="_blank" class="link-button b5">BlueSky</a>
+            <a href="https://github.com/lukeisuh" target="_blank" class="link-button b6">GitHub</a>
+        </div>
+        
+        <!-- Fun Fact Section -->
+        <div>
             <h3 class="factT">Fun Fact!!</h2>
             <p class="fact" id="fun-fact"></p>
+        </div>
 
+        <!-- Favourite Song -->
         <div class="songT">
             <h3 class="text">My current favourite song:</h3>
             <h4 class="text2">'The Mind Electric' By Chonny Jash</h3>
-                <audio class="song" src="song.mp3" controls></audio>
+            <audio class="song" src="song.mp3" controls></audio>
         </div>
-        
+       
         </div>
 
-        <div class="visualizer-container">
+        <!-- Visualizer :) -->
+        <div class="visualizer">
             <canvas id="visualizer" width="400" height="100"></canvas>
         </div>
 
-    <div id="cursor-trail"></div>
+
+
+    <!-- Scripts -->
     <script src="scripts/trail.js"></script>
     <script src="scripts/facts.js"></script>
-    </div>
-
     <script src="scripts/vis.js"></script>
-
 
 </body>
 </html>
