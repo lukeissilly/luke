@@ -140,11 +140,36 @@ body {
     font-size: 20px;
 }
 
-.song {
+.text2 {
+    color: #afafaf;
+    margin-top: -25px;
+    font-size: 15px;
+}
+
+.songT {
     color: #ffffff;
-    margin-top: 60px;
+    margin-top: -40px;
+
     font-size: 20px;
 }
+
+.song{
+    margin-top:0px;
+    margin-bottom:100px;
+}
+
+.visualizer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -200px;
+    margin-bottom: -10px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
 
 @media (max-width: 720px) {
     .body {

@@ -19,6 +19,7 @@
 </head>
 
 <body class="body">
+
         <!-- Profile Picture -->
         <a href="vault/vault.html">
             <img class="profile-picture" src="images/pfp.gif">
@@ -44,19 +45,25 @@
             <h3 class="factT">Fun Fact!!</h2>
             <p class="fact" id="fun-fact"></p>
 
-        <div class="song">
+        <div class="songT">
             <h3 class="text">My current favourite song:</h3>
-            <iframe style="border-radius:10px" src="https://open.spotify.com/embed/track/2J5BiYSzg60WnwLCjszy8R?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            <h4 class="text2">'The Mind Electric' By Chonny Jash</h3>
+                <audio class="song" src="song.mp3" controls></audio>
+        </div>
+        
         </div>
 
-        <div id="current-song"></div>
-        
+        <div class="visualizer-container">
+            <canvas id="visualizer" width="400" height="200"></canvas>
         </div>
 
     <div id="cursor-trail"></div>
     <script src="scripts/trail.js"></script>
     <script src="scripts/facts.js"></script>
     </div>
-    
+
+    <script src="scripts/vis.js"></script>
+
+
 </body>
 </html>
