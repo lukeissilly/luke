@@ -51,7 +51,7 @@ body {
 }
 
 .pronouns {
-    margin-top: -41px;
+    margin-top: -36px;
     font-size: 20px;
 }
 
@@ -62,7 +62,8 @@ body {
 
 .fact {
     color: #f7f7f7;
-    margin-top: -30px;
+    margin-top: -40px;
+    margin-bottom: 85px;
     font-size: 20px;
 }
 
@@ -120,7 +121,7 @@ body {
 
 .songN {
     margin-top: -25px;
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .song{
