@@ -36,6 +36,10 @@ body {
     color: #ffffff;
 }
 
+.pronouns, .songN {
+    color: #afafaf;
+}
+
 .name {
     margin-top: 40px;
     font-size: 40px;
@@ -46,9 +50,8 @@ body {
     font-size: 25px;
 }
 
-.pronouns, .text2 {
-    color: #afafaf;
-    margin-top: -25px;
+.pronouns {
+    margin-top: -41px;
     font-size: 20px;
 }
 
@@ -103,7 +106,7 @@ body {
     transform-origin: left center;
 }
 
-.text {
+.songF {
     color: #ffffff;
     margin-top: 60px;
     font-size: 20px;
@@ -113,6 +116,11 @@ body {
     color: #ffffff;
     margin-top: -40px;
     font-size: 20px;
+}
+
+.songN {
+    margin-top: -25px;
+    font-size: 16px;
 }
 
 .song{
