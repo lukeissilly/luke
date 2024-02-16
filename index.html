@@ -1,81 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
-    <!-- Basic Info -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Lukes socials and some silly little facts about the fucking dickhead">
-    <link rel="canonical" href="https://luke.tf">
-    <meta name="theme-color" content="#000000">
-    <title>Luke</title>
-    <link rel="icon" type="image/x-icon" href="images/pfp.gif">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <title> Luke / Home </title>
+    <link rel="icon" type="image/x-icon" href="https://i.ibb.co/0XBwd2H/pfp.gif">
 
-    <!-- Meta Shit -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Luke">
     <meta name="twitter:description" content="Luke was here">
-    <meta name="twitter:image" content="https://luke.tf/images/pfp.gif">
+    <meta name="twitter:image" content="https://i.ibb.co/0XBwd2H/pfp.gif">
 
 </head>
 
-<body class="body">
+<body class="bg-black mt-20">
 
-    <!-- Trail :p -->
-    <div id="cursor-trail"></div>
+    <div class="flex justify-center space-x-4 -mt-14 mb-20">
+        <a href="index.html"><button class="text-white font-bold py-2 px-4 rounded"><b>Home</b></button></a>
+        <a href="about.html"><button class="text-white font-bold py-2 px-4 rounded">About</button></a>
+        <a href="socials.html"><button class="text-white font-bold py-2 px-4 rounded">Socials</button></a>
+    </div>
 
-    <!-- Profile Picture -->
-    <a href="vault/vault.html">
-    <img class="profile-picture" src="images/pfp.gif">
-    </a>
-     
-    <!-- Little box :3 -->
-    <div class="container">
-           
-        <!-- Basic Info -->
-        <header class="profile">
-            <h1 class="name"> Luke </h1>
-            <p class="pronouns"> <b> he/him </b> </p>
-            <p class="bio"> I'm Luke and I do dumb shit </p>
-        </header>
+    <div class="All relative text-center">
+      
+      <img id="gif2" class="MainImage mx-auto rounded-full" src="https://i.ibb.co/0XBwd2H/pfp.gif">
+      <img id="gif1" class="MPOS ml-auto mr-auto mb-auto absolute inset-0 z-10 pointer-events-none" src="https://i.ibb.co/FHfwpJC/a.gif">
 
-        <!-- Links -->
-        <nav class="links">
-            <a href="https://youtube.com/@lukeissilly" target="_blank" class="link-button b1"> YouTube </a>
-            <a href="https://twitter.com/lukeissilly" target="_blank" class="link-button b2"> Twitter </a>
-            <a href="https://discord.name/385344110778908674" target="_blank" class="link-button b3"> Discord </a>
-            <a href="https://open.spotify.com/user/9ixw4ovbqy6tdn1rn9wiyz6vx" target="_blank" class="link-button b4"> Spotify </a>
-            <a href="https://bsky.app/profile/luke.tf" target="_blank" class="link-button b5"> BlueSky </a>
-            <a href="https://github.com/lukeisuh" target="_blank" class="link-button b6"> GitHub </a>
-        </nav>
-        
-        <!-- Fun Fact Section -->
-        <section>
-            <h3 class="factT"> Fun Fact!! </h3>
-            <p class="fact" id="fun-fact"></p>
-        </section>
+      <h1 class="mx-auto mt-2 text-6xl text-white"><b>Luke</b></h1>
+      <p class="mx-auto -mt-2 text-2xl text-gray-500"><i>he/him </i></p>
+      <p class="mx-auto mt-5 text-6xl text-white">I do dumb shit</p>
+      
+      <p class="mt-20 text-3xl text-white">this page is really empty so heres a cat on a skateboard :)</p>
+      <img class="mt-5 mx-auto rounded-lg" src="https://i.ibb.co/fCVNrQj/aaaa.gif">
 
-        <!-- Favourite Song -->
-        <section class="songT">
-            <h3 class="songF"> My current favourite song: </h3>
-            <h4 class="songN"> 'The Soul Eclectic' By Chonny Jash </h4>
-            <audio class="song" src="song.mp3" controls></audio>
-        </section>
-       
-        </div>
-
-        <!-- Visualizer :) -->
-        <div class="visualizer">
-            <canvas id="visualizer" width="400" height="100"></canvas>
-        </div>
-
-
-
-    <!-- Scripts -->
-    <script src="scripts/trail.js"></script>
-    <script src="scripts/facts.js"></script>
-    <script src="scripts/vis.js"></script>
-
+    </div>
+    <script src="load.js"></script>
 </body>
 </html>
