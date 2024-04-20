@@ -108,35 +108,30 @@
 }
 
 .HOMEBG {
-    background-image: url('https://i.ibb.co/RBhT2J9/transparent.png');
-}
-
-.FMBG {
-  background-image: url('https://i.ibb.co/RBhT2J9/transparent.png');
-  background-position: center calc(0px - 160px);
+    background-image: url('images/transparent.png');
 }
 
 .CATBG {
-  background-image: url('https://i.ibb.co/LS8ydjX/23-07-30-20-31-08-6309.webp');
+  background-image: url('images/23-07-30-20-31-08-6309.webp');
   background-position: center calc(0px - 70px);
 }
 
 .AIBG {
-  background-image: url('https://i.ibb.co/Sfdfmtj/7f7f2882899755a705a2953b6fcfc263-1.gif');
+  background-image: url('images/7f7f2882899755a705a2953b6fcfc263-1.gif');
 }
 
 .PPBG {
-  background-image: url('https://i.ibb.co/pr5p1VF/Pepsi-2023-svg.png');
+  background-image: url('images/Pepsi-2023-svg.png');
   background-position: center calc(0px - 180px);
 }
 
 .NGBG {
-  background-image: url('https://i.ibb.co/cC4rFgJ/Capture.png');
+  background-image: url('images/Capture.png');
   background-position: center calc(0px - 110px);
 }
 
 .NBG {
-  background-image: url('https://i.ibb.co/BgRDw8K/Capture.png');
+  background-image: url('images/Capture\ \(1\).png');
   background-position: center calc(0px - 110px);
 }
 
