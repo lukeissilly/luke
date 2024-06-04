@@ -2,7 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: url('images/star.gif') center / cover no-repeat fixed;
+    background: url('images/background.jpg') center / cover no-repeat fixed;
+}
+
+.bio a {
+    color: rgb(151, 195, 245);
+    text-decoration: none;
 }
 
 .container {
