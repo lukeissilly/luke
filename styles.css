@@ -135,6 +135,11 @@
   background-position: center calc(0px - 110px);
 }
 
+.USBG {
+  background-image: url('images/firefox_ISyKUXDkkb.png');
+  background-position: center calc(0px - 110px);
+}
+
 .bg-cover {
   background-size: cover;
 }
