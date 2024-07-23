@@ -97,6 +97,10 @@
   pointer-events: none;
 }
 
+.image-link {
+  display: inline-block;
+}
+
 .GPOS {
   position: absolute;
   top: 510px;
