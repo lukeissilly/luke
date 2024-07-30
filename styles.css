@@ -144,6 +144,11 @@
   background-position: center calc(0px - 110px);
 }
 
+.SRBG {
+  background-image: url('images/firefox_uapKaH3xMw.png');
+  background-position: center calc(0px - 70px);
+}
+
 .bg-cover {
   background-size: cover;
 }
